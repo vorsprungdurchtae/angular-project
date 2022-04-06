@@ -1,0 +1,1345 @@
+<!DOCTYPE HTML>
+<html>
+<title>main page</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+#mw-page-base{
+
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    background-color: aqua;
+    right: 10px;
+    top : 0px;
+
+}
+
+#mw-head-base{
+
+    position: absolute;
+    width: 1264px;
+    height: 80px;
+    background-color :  #e9eef6;
+    top : 0px;
+    right: 0px;
+
+}
+
+#mw-head-base nav#p-personal{
+
+    width: 629px;
+    height: 21px;
+
+}
+
+#mw-panel {
+
+    position: absolute;
+    width: 176px;
+    height: 2443px;
+    background-color:#e9eef6;
+    left : 0px;
+    top : 0px;
+
+
+}
+
+#content{
+
+    position: absolute;
+    background-color:chocolate;
+    width: 1264px;
+    height: 2363px;
+    right: 0px;
+    top : 80px;
+    left: 176px;
+
+}
+
+#mw-panel #p-logo{
+
+    width: 160px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #e9eef6;
+    border-color: black
+
+
+}
+
+#mv-panel nav.nav-titles{
+
+    font-size: 12px;
+    color : #B0B0B0;
+}   
+
+#mw-panel #p-logo .mw-wiki-logo{
+
+    width: 160px;
+    height: 160px;
+    
+
+}
+
+#mw-panel nav#p-navigation {
+
+    width: 139px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+}
+
+#mw-panel nav#p-navigation h3#p-navigation-label{
+
+    width: 0px;
+    height: 0px;
+    display: none;
+
+}
+
+#mw-panel nav#p-navigation #p-navigation-label span{
+
+    display: none;
+
+}
+
+#mw-panel nav#p-Mitmachen{
+
+    position: relative;
+    width: 80%;
+    height: 192px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+ 
+}
+
+#mw-panel nav#p-Mitmachen h3#p-Mitmachen-label{
+
+    position: relative;
+    width : 131px;
+    height: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+
+#mw-panel nav.mw-portlet-Mitmachen {
+
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow : hidden;
+
+}
+
+#mw-panel nav.mw-portlet-Mitmachen h3#p-Mitmachen-label span{
+
+    position: relative;
+    width : 59px;
+    height: 14px;
+    font-size: 5.0pt;
+    display: inline-block;
+
+}
+
+.vector-menu-content{
+
+    position : absolute;
+    width: 135px;
+    height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+.vector-menu-content ul.vector-menu-content-list{
+    
+    position : absolute;
+    width:131px;
+    height:62px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding-left: 0px;
+
+}
+
+ul.vector-menu-content-list li#n-mainpage-description{
+
+    position: relative;
+    width: 131px;
+    height: 19px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    text-align: left;
+    display: inline-block;
+    left: -10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+
+}
+
+ul.vector-menu-content-list li#n-mainpage-description a{
+
+    position: relative;
+    font-size: 12px;
+    bottom: 5px;
+    color: blue;
+    cursor: pointer;
+
+}
+
+ul.vector-menu-content-list li#n-mainpage-description a:hover{
+
+    text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-topics{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 0px;
+padding-bottom: 0px;
+
+
+}
+
+ul.vector-menu-content-list li#n-topics a{
+
+position: relative;
+font-size: 12px;
+bottom: 5px;
+color: blue;
+cursor: pointer;
+
+}
+
+ul.vector-menu-content-list li#n-topics a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-randompage{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 0px;
+padding-bottom: 0px;
+
+
+}
+
+ul.vector-menu-content-list li#n-randompage a{
+
+display: inline-block;
+position: relative;
+font-size: 12px;
+bottom: 5px;
+color: blue;
+cursor: pointer;
+
+}
+
+ul.vector-menu-content-list li#n-randompage a:hover{
+
+text-decoration: underline;
+
+}
+
+#mw-panel nav#p-mitmachen {
+
+width: 139px;
+height: 172px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5px;
+
+}
+
+ul.vector-menu-content-list li#n-artikel-verbessern{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-artikel-verbessern a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-artikel-verbessern a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-neuen-artikel-anlegen{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 6px;
+
+
+
+}
+
+ul.vector-menu-content-list li#n-neuen-artikel-anlegen a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 3px;
+color: blue;
+cursor: pointer;
+white-space: nowrap;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-neuen-artikel-anlegen a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-authorenportal{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+bottom: 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-authorenportal a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+color: blue;
+cursor: pointer;
+white-space: nowrap;
+width: 131px;
+height: 14px;
+
+}
+
+ul.vector-menu-content-list li#n-authorenportal a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-authorenportal{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+bottom: 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-authorenportal a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+color: blue;
+cursor: pointer;
+white-space: nowrap;
+width: 131px;
+height: 14px;
+
+}
+
+ul.vector-menu-content-list li#n-authorenportal a:hover{
+
+text-decoration: underline;
+
+}
+ul.vector-menu-content-list li#n-hilfe{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+bottom: 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-hilfe a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+
+color: blue;
+cursor: pointer;
+white-space: nowrap;
+width: 131px;
+height: 14px;
+
+}
+
+ul.vector-menu-content-list li#n-hilfe a:hover{
+
+text-decoration: underline;
+
+}
+ul.vector-menu-content-list li#n-Letzte-Aenderungen{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+bottom: 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Letzte-Aenderungen a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+
+color: blue;
+cursor: pointer;
+white-space: nowrap;
+width: 131px;
+height: 14px;
+
+}
+
+ul.vector-menu-content-list li#n-Letzte-Aenderungen a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-Kontakt{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+bottom: 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Kontakt a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+
+color: blue;
+cursor: pointer;
+white-space: nowrap;
+width: 131px;
+height: 14px;
+
+}
+
+ul.vector-menu-content-list li#n-Kontakt a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-spenden{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+bottom: 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-spenden a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+
+color: blue;
+cursor: pointer;
+white-space: nowrap;
+width: 131px;
+height: 14px;
+
+}
+
+ul.vector-menu-content-list li#n-spenden a:hover{
+
+text-decoration: underline;
+
+}
+
+#mw-panel nav#p-Werkzeuge{
+
+position: relative;
+width: 139px;
+height: 212px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5px;
+margin-top: 5px;
+
+}
+
+#mw-panel nav#p-Werkzeuge h3#p-Werkzeuge-label{
+
+position: relative;
+width : 131px;
+height: 20px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-top: 0px;
+
+}
+
+
+#mw-panel nav.mw-portlet-Werkzeuge {
+
+margin-left: 5px;
+margin-right: 5px;
+overflow : hidden;
+
+
+}
+
+#mw-panel nav.mw-portlet-Werkzeuge h3#p-Werkzeuge-label span{
+
+position: relative;
+width : 59px;
+height: 14px;
+font-size: 5.0pt;
+display: inline-block;
+
+}
+
+ul.vector-menu-content-list li#n-Links-auf-diese-Seite{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Links-auf-diese-Seite a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-Links-auf-diese-Seite a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-Aenderungen-an-verlinkten-Seiten{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 15px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Aenderungen-an-verlinkten-Seiten a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-Aenderungen-an-verlinkten-Seiten a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-Spezialseiten{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Spezialseiten a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-Spezialseiten a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-Permanenter-Link{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Permanenter-Link a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-Permanenter-Link a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-Seiteninformationen{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Seiteninformationen a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-Seiteninformationen a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-Artikel-zitieren{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Artikel-zitieren a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-Artikel-zitieren a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-Wikipedia-Datenobjekt{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Wikipedia-Datenobjekt a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-Wikipedia-Datenobjekt a:hover{
+
+text-decoration: underline;
+
+}
+
+#mw-panel nav#p-Drucker-exportieren{
+
+position: relative;
+width: 139px;
+height: 172px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5px;
+margin-top: 5px;
+
+}
+
+#mw-panel nav#p-Drucker-exportieren h3#p-Drucker-exportieren-label{
+
+position: relative;
+width : 131px;
+height: 20px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-top: 0px;
+
+}
+
+ul.vector-menu-content-list li#n-Buch-erstellen{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Buch-erstellen a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-Buch-erstellen a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-Als-PDF-herunterladen{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Als-PDF-herunterladen a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-Als-PDF-herunterladen a:hover{
+
+text-decoration: underline;
+
+}
+
+ul.vector-menu-content-list li#n-Druckversion{
+
+position: relative;
+width: 131px;
+height: 19px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+text-align: left;
+display: inline-block;
+left: -10px;
+padding-top: 2px;
+padding-bottom: 2px;
+top : 5px;
+
+
+}
+
+ul.vector-menu-content-list li#n-Druckversion a{
+
+display: inline-block;
+position: absolute;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+width: 131px;
+height: 19px;
+
+}
+
+ul.vector-menu-content-list li#n-Druckversion a:hover{
+
+text-decoration: underline;
+
+}
+
+
+#mw-head-base nav#p-anmelden {
+
+width: 140px;
+height: 30px;
+top : 0;
+right: 0;
+position: relative;
+text-decoration: none;
+padding-right: 0;
+
+}
+
+ul.loginbuttons li{
+
+display: inline;
+font-size: 12px;
+bottom: 0px;
+color: blue;
+cursor: pointer;
+
+
+}
+
+ul.loginbuttons li a:hover{
+
+text-decoration: underline;
+
+}
+
+
+.clr{
+    clear:both;
+    font-size:0;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div id = "mw-page-base"></div>
+<div id = "mw-head-base">
+
+    <nav id = "#p-anmelden">
+
+        <ul class="loginbuttons">
+
+            <li><a href="#home">Diskussionsseite</a></li>
+            <li><a href="#news">Beitrage</a></li>
+            <li><a href="#contact">Benutzerkonto erstellen</a></li>
+            <li><a href="#about">Anmelden</a></li>
+
+          </ul>
+
+    </nav> 
+
+</div>
+<div id = "content"></div>
+<div id = "mw-panel">
+    <div id = "p-logo" role="banner">
+
+        <a title = "Hauptseite" class="mw-wiki-logo" ><img src="wiki-main-globe.png" style="width:120px;height:120px;margin-top: 30px;margin-left: 20px;" alt=" photo google-logo_zpspkcztsjo.png"/></a>
+
+    </div>
+    <nav id = "p-navigation">
+        <h3 id = "p-navigation-label">Navigation</h3>
+
+        <div class="vector-menu-content">
+
+            <ul class="vector-menu-content-list">
+
+                <li id="n-mainpage-description">
+
+                    <a title="Hauptseite besuchen">Hauptseite</a>
+
+                </li>
+
+                <li id="n-topics">
+
+                    <a title="">Themenportal</a>
+
+                </li>
+
+                <li id="n-randompage">
+
+                    <a title="">Zuf&aumllliger Artikel</a>
+
+                </li>
+
+            </ul>
+
+            
+
+            <div class="clr"></div>
+        </div>
+    </nav>
+    <!--  border-bottom: 1px solid grey;background: linear-gradient(to right, white 5%, grey 50%, white 95%);background-size:100% 1px;-->
+    <nav id = "p-Mitmachen">
+
+        <h3 id="p-Mitmachen-label" style="position:absolute;border-left-width: 0;
+        border-right-width: 0;border-top: 0px; border-bottom: 0.5px solid grey; border-image: linear-gradient(to right, #e9eef6, grey, #e9eef6) 1 stretch;">
+
+            <span style="font-size:13px;position:absolute;color: grey; ">Mitmachen</span>
+
+        </h3>
+
+        <div class="vector-menu-content" style="top: 20px; height : 172px">
+
+            <ul class="vector-menu-content-list" style="height : 172px">
+
+                <li id = "n-artikel-verbessern">
+
+                    <a title="">Artikel verbessern</a>
+
+                </li>
+
+                <li id = "n-neuen-artikel-anlegen">
+
+                    <a title="" >Neuen Artikel anlegen</a>
+
+                </li>
+
+                <li id = "n-authorenportal">
+
+                    <a title="" style="bottom: 1px;">Authorenportal</a>
+
+                </li>
+
+                <li id = "n-hilfe">
+
+                    <a title="" >Hilfe</a>
+
+                </li>
+
+                <li id = "n-Letzte-Aenderungen">
+
+                    <a title="" >Letzte &Aumlnderungen</a>
+
+                </li>
+
+                <li id = "n-Kontakt">
+
+                    <a title="" >Kontakt</a>
+
+                </li>
+                <li id = "n-spenden">
+
+                    <a title="" >Spenden</a>
+
+                </li>
+                
+
+            </ul>
+
+        </div>
+
+
+    </nav>
+
+    <nav id = "p-Werkzeuge">
+
+        <h3 id="p-Werkzeuge-label" style="position:absolute;border-left-width: 0;
+        border-right-width: 0;border-top: 0px; border-bottom: 0.5px solid grey; border-image: linear-gradient(to right, #e9eef6, grey, #e9eef6) 1 stretch;">
+
+            <span style="font-size:13px;position:absolute;color: grey; ">Werkzeuge</span>
+
+        </h3>
+
+        <div class="vector-menu-content" style="top: 20px; height : 172px">
+
+            <ul class="vector-menu-content-list">
+
+                <li id = "n-Links-auf-diese-Seite">
+
+                    <a title="">Links auf diese Seite</a>
+
+                </li>
+                <li id = "n-Aenderungen-an-verlinkten-Seiten">
+
+                    <a title="">&Aumlnderung an verlinkten Seiten</a>
+
+                </li>
+                <li id = "n-Spezialseiten">
+
+                    <a title="">Spezialseiten</a>
+
+                </li>
+                <li id = "n-Permanenter-Link">
+
+                    <a title="">Permanenter Link</a>
+
+                </li>
+
+                <li id = "n-Seiteninformationen">
+
+                    <a title="">Seiteninformationen</a>
+
+                </li>
+                <li id = "n-Artikel-zitieren">
+
+                    <a title="">Artikel zitieren</a>
+
+                </li>
+
+                <li id = "n-Wikipedia-Datenobjekt">
+
+                    <a title="">Wikidata&#8209Datenobjekt</a>
+
+                </li>
+
+                
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <nav id = "p-Drucker-exportieren">
+
+        <h3 id="p-Drucker-exportieren-label" style="position:relative;border-left-width: 0;
+        border-right-width: 0;border-top: 0px; border-bottom: 0.5px solid grey; border-image: linear-gradient(to right, #e9eef6, grey, #e9eef6) 1 stretch;">
+
+            <span style="font-size:13px;position:absolute;color: grey; ">Drucken/exportieren</span>
+
+        </h3>
+
+        <div class="vector-menu-content">
+
+            <ul class="vector-menu-content-list">
+
+                <li id = "n-Buch-erstellen">
+
+                    <a title="" >Buch erstellen</a>
+
+                </li>
+
+                <li id = "n-Als-PDF-herunterladen">
+
+                    <a style="white-space: nowrap" title="" >Als PDF herunterladen</a>
+
+                </li>
+
+                <li id = "n-Druckversion">
+
+                    <a title="" >Druckversion</a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+
+    </nav>
+
+    
+
+    
+</div>
+
+
+
+
+</body>
+
+</html>
+
+<!-- #mw-panel nav.mw-portlet-Mitmachen -->
+
+<!--Learning Learning Learning to survive-->
+<!-- margin and padding are the two most commonly used properties for spacing-out elements. 
+     A margin is the space outside something, whereas padding is the space inside something.-->
+<!--
+
+TODO
+
+Hilfe
+Letzte Änderungen
+Kontakt
+Spenden
+
+Werkzeuge
+-----------
+Links auf diese Seite
+Änderungen an verlinkten Seiten
+Sepzialseiten
+Permanenter Link
+Seiteninformationen
+Wikidata-Datenobjekt
+
+Drucken/exportieren
+--------------------
+
+Bucherstellen
+Als PDF herunterladen
+Druckversion
+
+In anderen Projekten
+--------------------
+commons
+Wikisource
+
+In anderen Sprachen
+-------------------
+Deutsch
+Englisch
+Dutch
+
+-->
