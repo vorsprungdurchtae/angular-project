@@ -1,0 +1,3 @@
+<app-front *ngIf = "frontBool" [frontvisible]="frontBool" (sendFrontBool) = "getEventFromFront($event)" ></app-front>
+<app-main *ngIf = "mainBool" [maintitle]="maintitle" [maincontent]="maincontent" [hidemain]="emptysearchBool" [showmultiples]="duplicatedBool" [multipleDoc] = "results" (keyword_from_main)="getEventFromFront($event)"></app-main>
+

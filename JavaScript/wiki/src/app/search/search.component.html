@@ -1,0 +1,13 @@
+<div style="position: relative;">
+    <!--inside div should be absolute-->
+    <h1 style="margin-left: 20px; margin-top: 10px; margin-right: 10px ; font-family: serif; border-bottom: 1px solid gray; padding: 0 0 4px;">
+        Suche(the given keyword was not found)
+    </h1>
+    <div style="position: relative;">
+        <form >
+          <input type="text" [(ngModel)] = "searchInput_search"  style="position: absolute;width: 520px; left: 17px; right: 40%; height: 30px; border:1px solid black;" name = "search-key" autofocus>
+          <button (click)="transmitKeywordFromSearch()" style = "position: absolute; height: 30px; left: 466px;" type = "button" >Suchen</button>
+        </form>
+     </div>
+
+</div>

@@ -1,0 +1,40 @@
+{
+  "players":
+  [  
+    {  
+      "id": 1,  
+      "name": "Brady",  
+      "position": "QB",  
+      "Age": "44",  
+      "Description": "He won the most SB in the NFL history"
+    },  
+    {  
+      "id": 2,  
+      "name": "Prescott",  
+      "Position": "QB",  
+      "Age": "28",
+      "Description": "Cowboys QB"
+    },  
+    {  
+      "id": 3,  
+      "name": "Odell",  
+      "Position": "WR",  
+      "Age": "29",
+      "Description": "The best wide receiver in NFL"
+    },  
+    {  
+      "id": 4,  
+      "name": "Kupp",  
+      "Position": "WR",  
+      "Age": "30",
+      "Description": "WR who lead the Rams to Super Bowl Winner"
+    },  
+    {  
+      "id": 5,  
+      "name": "Rodgers",  
+      "Position": "QB",  
+      "Age": "50",
+      "Description": "The best QB in the NFL history, statistics verify that he is the best offenc leader in NFL"
+    }  
+  ]  
+}

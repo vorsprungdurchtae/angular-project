@@ -1,0 +1,30 @@
+<style>
+
+li:hover{
+
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+
+</style>
+
+<div style="position: absolute;" *ngIf="clicked == false">
+
+    <div style="display: absolute; margin-left: 3%;">
+
+        <h3>{{multipleTitle}} steht fuer</h3>
+
+    </div>
+
+    <ul *ngFor = "let doc of multipleDocList">
+
+        <div style="margin-bottom: 1%; color: blue;">
+            <li (click)="transmitcontentfromdup(doc.description)">
+            {{doc.description}}
+            </li></div>
+
+    </ul>
+
+</div>
